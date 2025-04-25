@@ -1,9 +1,17 @@
 <?php
 // === DB CONFIG ===
+
+// DB_CONNECTION=mysql
+// DB_HOST=localhost
+// DB_PORT=3306
+// DB_DATABASE=s3487_tall_beach
+// DB_USERNAME=u3487_tall_beach
+// DB_PASSWORD=mP6jFUpiaMhWAFGj
+
 $host = 'localhost';
-$db   = 'your_database';
-$user = 'your_username';
-$pass = 'your_password';
+$db   = 'u3487_tall_beach';
+$user = 'u3487_tall_beach';
+$pass = 'mP6jFUpiaMhWAFGj'
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
